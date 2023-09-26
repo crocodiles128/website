@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="/css/css/mdb.min.css" />
+  <title>Wiki Crocodilândia</title>
+</head>
+
+<body>
+<?php
+    require_once('navbar_crocodilandia.php');
+    ?>
+  <br><br>
+  <center>
+    <h1>Wiki Crocodilândia</h1>
+    <p>A Wiki do Servidor Crocodilândia V-3.0.0</p>
+    <h6>IP: <code>crocodilândia.aternos.me</code> </h6>
+    <h6>versão: <code>1.16.5</code> </h6>
+  </center>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--Lore+ShowCase-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/showcse.png" class="w-100" alt="Imagem demosntrativa">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">ShowCase e Lore</h5>
+      <p>O ShowCase e a Lore do servidor podem ser encontradas nessa página</p>
+      <a href="/website/showcase.html" class="btn btn-primary stretched-link">Explorar</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--Textura-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/pack.png" class="w-100" alt="Imagem demosntrativa">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Textura Oficial</h5>
+      <p>Só é possivel aproveitar ao maximo a experiência de jogo com essa textura</p>
+      <a href="/website/textura.html" class="btn btn-primary stretched-link">Baixar Textura</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--Claims-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/claim_thumb.jfif" class="w-100" alt="Imagem demosntrativa">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Terrenos e Proteção</h5>
+      <p>Aqui você verá como usar o <code>/kit claim</code> para claimar seus terrenos e mante-los seguros contra
+        griefers.</p>
+      <a href="/website/wiki_claim.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--CHESTSHOPP-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/Chest_Shopp_Thumb.png" class="w-100" alt="Imagem demosntrativa">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Vender usando Placas e Baús</h5>
+      <p>Aqui você verá como usar Placas e Baús para fazer compras/vendas de itens.</p>
+      <a href="/website/wiki_chestshopp.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--MOREORES-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/more_ores_thumb.png" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Minérios Próprios</h5>
+      <p>Aqui você pode ver como encontrar e como utilizar os minérios do servidor que não tem no minecraft normal.</p>
+      <a href="/website/wiki_moreores.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--MythicMobs-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/MythicMobs_thumb.png" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Mobs Especiais</h5>
+      <p>Aqui você pode ver onde achar, drops e outras infomações sobre mobs proprios do servidor.</p>
+      <a href="/website/wiki_mythicmobs.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--Bebidas e Comidas-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/foods_thumb.jfif" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Bebidas e Comidas do Servidor</h5>
+      <p>Aqui você pode ver como Fazer as Comidas e Bebidas proprias do servidor.</p>
+      <a href="/website/wiki_foods.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-warning rounded-pill">Médio</span>
+    </div>
+  </div>
+  <br>
+  <!--Multiverse-Core-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/multiverse_thumb_temp.png" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Novos Mundos!</h5>
+      <p>Aqui você pode ver uma lista de "mundos" prórpios do servidor e como você pode viajar para eles.</p>
+      <a href="/website/wiki_Multiverse.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--MTV-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/MTV_thumb.jpg" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Veiculos</h5>
+      <p>Aqui você pode ver uma lista de veiculos aeronaves tanques de guerra e OVNI's. e como e conde comprar</p>
+      <a href="/website/wiki_MTV.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-success rounded-pill">Fácil</span>
+    </div>
+  </div>
+  <br>
+  <!--Big Doors-->
+  <div class="row g-0 bg-body-secondary position-relative">
+    <div class="col-md-2 mb-md-0 p-md-4">
+      <img src="imgs/big_doors_thumb.gif" class="w-100" alt="...">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+      <h5 class="mt-0">Portas e Portões</h5>
+      <p>Aqui você verá o funcionamento do sistema de Super Portas</p>
+      <a href="/website/wiki_big_doors.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <span class="badge bg-warning rounded-pill">Médio</span>
+    </div>
+  </div>
+  <br>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+<footer class="text-center text-white" style="background-color: #9c9c9c;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!--Discord-->
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://discord.io/crocodiles" role="button"
+        data-mdb-ripple-color="dark"><i class=" fab fa-discord fa-2x"></i></a>
+      <!-- Github -->
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/crocodiles128" role="button"
+        data-mdb-ripple-color="dark"><i class="fab fa-github fa-2x"></i></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright: CROCODILES🐊
+    <a class="text-dark" href="https://discord.io/crocodiles">discord/crocodiles</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</html>
+
+<!--
+─────▄████▀█▄
+───▄█████████████████▄
+─▄█████.▼.▼.▼.▼.▼.▼▼▼▼
+▄███████▄.▲.▲▲▲▲▲▲▲▲
+████████████████████▀▀
+-->

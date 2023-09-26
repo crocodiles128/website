@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="/css/css/mdb.min.css" />
+    <title>Crocodilândia Terrenos e Proteção</title>
+
+</head>
+
+<body>
+    <?php
+    require_once('navbar_crocodilandia.php');
+    ?>
+
+    <h1 class="text-center text-white" style="background-color: #9c9c9c;">ShowCase e Lore</h1>
+    <br>
+
+    <center><img src="imgs/showcse.png" class="w-80" alt="Imagem demosntrativa"></center><br><br>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/T_qgbqwajZc"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe></center>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Lore
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Na tranquila e pacífica Crocodilândia, os jogadores começaram a ansiar por novas aventuras e
+                        desafios. Para atender a esses desejos, um sobrevivente misterioso, conhecido como Alienigena,
+                        emerge do mundo normal com uma proposta intrigante. Ele revela aos jogadores a existência de uma
+                        estação espacial internacional que foi estabelecida recentemente perto da Terra para explorar a
+                        lua.</p>
+                    <p>A lua, um mundo árido e inóspito, é desprovida de vida e não suporta o crescimento de plantas. No
+                        entanto, a equipe da estação espacial descobriu uma bebida especial feita com minerais e
+                        elementos únicos encontrados na lua, que concede poderes temporários aos aventureiros
+                        destemidos.</p>
+                    <p>Os jogadores são convidados a se tornarem exploradores lunares e embarcar em missões arriscadas
+                        para coletar rochas lunares valiosas. No entanto, a lua não é um lugar seguro. Monstros temíveis
+                        habitam o solo lunar, incluindo dois poderosos chefes chamados Umbra e Toxus. Derrotá-los não é
+                        uma tarefa fácil, mas vale a pena, pois eles concedem itens raros e poderosos.</p>
+                    <p>A jornada para a lua é feita por meio de uma viagem interdimensional que permite aos jogadores
+                        alternar entre o mundo normal e a estação espacial na lua. A estação espacial serve como um
+                        ponto de descanso e abastecimento, além de fornecer aos jogadores acesso a veículos incríveis,
+                        como aviões e helicópteros, para explorar a superfície lunar.</p>
+                    <p>Enquanto os jogadores embarcam em suas missões, suas escolhas e ações influenciam o
+                        desenvolvimento da história. Suas interações com NPC's, incluindo Alienigena, e suas decisões ao
+                        lidar com desafios podem levar a diferentes desfechos. Isso garante uma experiência envolvente e
+                        a oportunidade de moldar o futuro da Crocodilândia.</p>
+                    <p>À medida que a temporada avança, os jogadores descobrem pistas intrigantes sobre segredos ocultos
+                        na lua e uma ameaça iminente. O clímax da história culmina em um confronto épico, onde os
+                        jogadores devem se unir e usar suas habilidades e itens obtidos para enfrentar a ameaça final.
+                    </p>
+                    <p>No final da temporada, a história não é totalmente resolvida. Os eventos que se desenrolaram
+                        revelam que a aventura na lua é apenas o começo de uma jornada maior. Os jogadores se despedem
+                        da estação espacial, com a promessa de futuras temporadas que explorarão mais a fundo os
+                        mistérios do universo e desafios emocionantes que aguardam na Crocodilândia.
+                    </p></code>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Lore V3.1
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p>Com a explosão da lua e a subsequente fragmentação da Terra em ilhas, uma nova dinâmica toma
+                        conta de Crocodilândia. Os sobreviventes das ilhas remanescentes, agora isolados em seus
+                        próprios pequenos mundos, começam a enfrentar desafios inéditos. As ilhas, com suas culturas
+                        distintas e ecossistemas variados, rapidamente se adaptam à nova realidade.</p>
+                    <p>Os aventureiros de Crocodilândia exploram essas ilhas em busca de recursos, conhecimento e
+                        aliados. Ao mesmo tempo, descobrem que não estão sozinhos. Sobreviventes do antigo mundo que
+                        foram lançados para a dimensão gerada pela explosão também estão se reorganizando, estabelecendo
+                        suas próprias sociedades no novo território. Esses dois grupos de sobreviventes, os "Antigos" e
+                        os "Nativos", têm perspectivas diferentes sobre como lidar com a coexistência e a partilha de
+                        recursos escassos.</p>
+                    <p>No centro dessa nova realidade está a descoberta de que a explosão da lua foi, na verdade,
+                        provocada por uma tecnologia avançada e proibida, usada em uma guerra antiga que ameaçava
+                        destruir o mundo. Os "Antigos" detêm o conhecimento dessa tecnologia perigosa, enquanto os
+                        "Nativos" confiam na sabedoria ancestral e na harmonia com a natureza para prosperar.</p>
+                    <p>Os aventureiros de Crocodilândia, agora confrontados com a responsabilidade de moldar o destino
+                        desses dois grupos, precisam tomar decisões cruciais que determinarão o rumo do mundo
+                        fragmentado. Conflitos entre os Antigos e os Nativos surgem à medida que ambos lutam pelo
+                        controle das ilhas, seus recursos e os segredos que podem unir ou destruir essa nova sociedade.
+                    </p>
+                    <p>Enquanto os aventureiros desvendam mais sobre a história complexa por trás da explosão e buscam
+                        maneiras de superar as diferenças entre os Antigos e os Nativos, uma ameaça iminente surge no
+                        horizonte. Uma força sombria, despertada pela explosão, começa a se espalhar pelas ilhas,
+                        corrompendo a terra, a flora e até mesmo os corações dos habitantes.</p>
+                    <p>As ilhas, agora entrelaçadas por laços formados através da luta e da colaboração, representam um
+                        novo começo para a humanidade, com a esperança de um futuro onde as lições do passado podem ser
+                        aplicadas para construir um mundo melhor.</p>
+                    </code>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+<footer class="text-center text-white" style="background-color: #9c9c9c;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!--Discord-->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://discord.io/crocodiles" role="button"
+                data-mdb-ripple-color="dark"><i class=" fab fa-discord fa-2x"></i></a>
+            <!-- Github -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/crocodiles128"
+                role="button" data-mdb-ripple-color="dark"><i class="fab fa-github fa-2x"></i></a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright: CROCODILES🐊
+        <a class="text-dark" href="https://discord.io/crocodiles">discord/crocodiles</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+</html>
+
+<!--─────▄████▀█▄
+───▄█████████████████▄
+─▄█████.▼.▼.▼.▼.▼.▼▼▼▼
+▄███████▄.▲.▲▲▲▲▲▲▲▲
+████████████████████▀▀-->

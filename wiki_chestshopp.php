@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="/css/css/mdb.min.css" />
+  <title>Crocodilândia Placas e Baús</title>
+
+</head>
+
+<body>
+<?php
+    require_once('navbar_crocodilandia.php');
+    ?>
+
+  <h1 class="text-center text-white" style="background-color: #9c9c9c;">Vendas com Placas e Baús</h1>
+  <br>
+  <p class="text-center fs-3">Aqui você vai aprender como usar Placas e Baús para vender ou comprar itens ingame</p>
+  <br><br>
+  <p class="text-center fs-5">Com esse tutorial você vai poder fazer negociações <code
+      class="text-success">muito mais seguras</code> com outros jogadores</p>
+  <br><br>
+  <center><img src="imgs/chest_shopp_principal.jpg" class="w-80" alt="Imagem demosntrativa"></center><br><br>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Materiais
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">1. Ao mínimo um baú <br>2. Uma placa de qualquer madeira<br>3. Um item qualquer
+          para vender/comprar</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Construção e claims
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Você deve Colocar um <code>Baú</code> conectado a uma <code>Placa</code>, ou seja,
+          a placa deve estar em cima ou nas laterais do baú <br> Você pode criar lojas em locais sem claims ou em seus
+          claims, mais em claims de outros jogadores somente se você estiver <code>trust</code></div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Textos das Placas
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">{variável}<br>[Obrigatório]<br>
+          <p class="text-success">1° Linha</p> <code>{Seu Nick}</code> <br>
+          <p class="text-success">2° Linha</p> <code>{Quantidade de itens}</code><br>
+          <p class="text-success">3° Linha</p>
+          <p class="text-warning">(Letra maiusculas e sempre usando o espaço:)</p>B para vender itens e S para comprar
+          itens<br> <code>{B ou S}</code> <code>Valor</code> <code>(dois pontos ":")</code> repita com a outra letra
+          <center><img src="imgs/placa_shopp.jpg" class="w-50" alt="Imagem demosntrativa"></center>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br><br><br><br><br>
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+<footer class="text-center text-white" style="background-color: #9c9c9c;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!--Discord-->
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://discord.io/crocodiles" role="button"
+        data-mdb-ripple-color="dark"><i class=" fab fa-discord fa-2x"></i></a>
+      <!-- Github -->
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/crocodiles128" role="button"
+        data-mdb-ripple-color="dark"><i class="fab fa-github fa-2x"></i></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright: CROCODILES🐊
+    <a class="text-dark" href="https://discord.io/crocodiles">discord/crocodiles</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</html>
+
+─────▄████▀█▄
+───▄█████████████████▄
+─▄█████.▼.▼.▼.▼.▼.▼▼▼▼
+▄███████▄.▲.▲▲▲▲▲▲▲▲
+████████████████████▀▀
