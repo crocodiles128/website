@@ -47,7 +47,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">ShowCase e Lore</h5>
       <p>O ShowCase e a Lore do servidor podem ser encontradas nessa página</p>
-      <a href="/website/showcase.html" class="btn btn-primary stretched-link">Explorar</a>
+      <a href="/website/showcase.php" class="btn btn-primary stretched-link">Explorar</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -60,7 +60,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Textura Oficial</h5>
       <p>Só é possivel aproveitar ao maximo a experiência de jogo com essa textura</p>
-      <a href="/website/textura.html" class="btn btn-primary stretched-link">Baixar Textura</a>
+      <a href="/website/textura.php" class="btn btn-primary stretched-link">Baixar Textura</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -74,7 +74,7 @@
       <h5 class="mt-0">Terrenos e Proteção</h5>
       <p>Aqui você verá como usar o <code>/kit claim</code> para claimar seus terrenos e mante-los seguros contra
         griefers.</p>
-      <a href="/website/wiki_claim.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_claim.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -87,7 +87,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Vender usando Placas e Baús</h5>
       <p>Aqui você verá como usar Placas e Baús para fazer compras/vendas de itens.</p>
-      <a href="/website/wiki_chestshopp.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_chestshopp.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -100,7 +100,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Minérios Próprios</h5>
       <p>Aqui você pode ver como encontrar e como utilizar os minérios do servidor que não tem no minecraft normal.</p>
-      <a href="/website/wiki_moreores.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_moreores.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -113,7 +113,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Mobs Especiais</h5>
       <p>Aqui você pode ver onde achar, drops e outras infomações sobre mobs proprios do servidor.</p>
-      <a href="/website/wiki_mythicmobs.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_mythicmobs.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -126,7 +126,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Bebidas e Comidas do Servidor</h5>
       <p>Aqui você pode ver como Fazer as Comidas e Bebidas proprias do servidor.</p>
-      <a href="/website/wiki_foods.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_foods.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-warning rounded-pill">Médio</span>
     </div>
   </div>
@@ -139,7 +139,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Novos Mundos!</h5>
       <p>Aqui você pode ver uma lista de "mundos" prórpios do servidor e como você pode viajar para eles.</p>
-      <a href="/website/wiki_Multiverse.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_Multiverse.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -152,7 +152,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Veiculos</h5>
       <p>Aqui você pode ver uma lista de veiculos aeronaves tanques de guerra e OVNI's. e como e conde comprar</p>
-      <a href="/website/wiki_MTV.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_MTV.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-success rounded-pill">Fácil</span>
     </div>
   </div>
@@ -165,7 +165,7 @@
     <div class="col-md-6 p-4 ps-md-0">
       <h5 class="mt-0">Portas e Portões</h5>
       <p>Aqui você verá o funcionamento do sistema de Super Portas</p>
-      <a href="/website/wiki_big_doors.html" class="btn btn-primary stretched-link">Ver como se faz</a>
+      <a href="/website/wiki_big_doors.php" class="btn btn-primary stretched-link">Ver como se faz</a>
       <span class="badge bg-warning rounded-pill">Médio</span>
     </div>
   </div>

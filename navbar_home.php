@@ -11,10 +11,10 @@
         <a class="nav-link active" aria-current="page" href="/website/index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/website/wiki.html">Crocodilândia</a>
+        <a class="nav-link" href="/website/wiki.php">Crocodilândia</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/website/discord.html">Discord e BOT's</a>
+        <a class="nav-link" href="/website/discord.php">Discord e BOT's</a>
       </li>
     </ul>
     <span class="navbar-text">
