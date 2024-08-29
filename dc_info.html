@@ -22,13 +22,33 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
     <!-- MDB -->
     <link rel="stylesheet" href="/css/css/mdb.min.css" />
-    <title>Crocodilândia Placas e Baús</title>
+    <title>Políticas</title>
+    <script>
+        // Função para verificar se o usuário está autenticado
+        function checkAuth() {
+            const token = localStorage.getItem('authToken');
+            if (!token) {
+                window.location.href = '/staff-crocodiles/login.html'; // Redireciona para a página de login se não estiver autenticado
+            }
+        }
 
+        // Função para fazer logout
+        function logout() {
+            localStorage.removeItem('authToken'); // Remove o token de autenticação
+            window.location.href = '/staff-crocodiles/login.html'; // Redireciona para a página de login
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            checkAuth(); // Verifica a autenticação ao carregar a página
+
+            // Adiciona evento de logout ao botão de logout
+            document.getElementById('logoutButton').addEventListener('click', logout);
+        });
+    </script>
 </head>
 
-
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="/website/index.html">CROCODILES🐊</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -53,41 +73,10 @@
             </div>
         </div>
     </nav>
+
+
     <!-- Start your project here-->
 
-    <div id="preview" class="preview">
-        <div style="display: none;"></div>
-        <div>
-            <div data-draggable="true" class="" style="position: relative;" draggable="false"><!----><!---->
-                <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
-                    <section class="mb-10"> <!-- Background image -->
-                        <div class="p-5 text-center bg-image"
-                            style="background-image: url(&quot;https://mdbootstrap.com/img/new/textures/full/142.jpg&quot;); height: 500px; background-size: cover; background-position: 50% 50%; background-color: rgba(0, 0, 0, 0);"
-                            aria-controls="#picker-editor"></div> <!-- Background image -->
-                        <div class="container">
-                            <div class="card mx-4 mx-md-5 text-center shadow-5-strong"
-                                style=" margin-top: -170px; background: hsla(0, 0%, 100%, 0.7); backdrop-filter: blur(30px); ">
-                                <div class="card-body px-4 py-5 px-md-5">
-                                    <h1 class="display-3 fw-bold ls-tight mb-4"> <span>Foi Banido, faça seu apelo aqui</span> <br> <span class="text-primary"></span> </h1> <a
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfKEL_fU3IWkIeOWqLXUfXmxbYrYfIJDHsbtN0hjwWUHdZDhw/viewform"
-                                        class="btn btn-primary stretched-link">Apelar Punição<i
-                                            class="fas fa-download p-1 ps-2"></i></a>
-                                    <h1 class="display-3 fw-bold ls-tight mb-4"> <span>Entrar na EQUIPE CRIATIVA do servidor</span> <br> <span
-                                            class="text-primary"></span> </h1> <a href="https://docs.google.com/forms/d/e/1FAIpQLScOFDyeIto2NJgUnNU-yiCioig04jpEsETNByjz9y3nO-vVXA/viewform"
-                                        download="World V.3" class="btn btn-primary stretched-link">Equipe Criativa<i
-                                            class="fas fa-download p-1 ps-2"></i></a>
-                                            <h1 class="display-3 fw-bold ls-tight mb-4"> <span>Entrar na EQUIPE DE MODERAÇÃO do servidor</span> <br> <span
-                                                class="text-primary"></span> </h1> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqmwgs16Po7IMxZD8xxFjEs9ToYgg9ZfjEKWct-R9VkBCG6A/viewform"
-                                            download="World V.3" class="btn btn-primary stretched-link">Equipe de Moderação<i
-                                                class="fas fa-download p-1 ps-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </section><!---->
-            </div>
-        </div>
-    </div>
 
     <!-- End your project here-->
 
@@ -98,7 +87,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-</body>
+</body><br><br><br><br><br><br><br>
 <footer class="text-center text-white" style="background-color: #9c9c9c;">
     <!-- Grid container -->
     <div class="container pt-4">
@@ -117,7 +106,7 @@
 
     <!-- Copyright -->
     <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright: CROCODILES🐊
+        © Copyright: CROCODILES🐊
         <a class="text-dark" href="https://discord.io/crocodiles">discord/crocodiles</a>
     </div>
     <!-- Copyright -->
@@ -125,8 +114,10 @@
 
 </html>
 
-<!--─────▄████▀█▄
+<!--
+─────▄████▀█▄
 ───▄█████████████████▄
 ─▄█████.▼.▼.▼.▼.▼.▼▼▼▼
 ▄███████▄.▲.▲▲▲▲▲▲▲▲
-████████████████████▀▀-->
+████████████████████▀▀
+-->
