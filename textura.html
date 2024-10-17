@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="/css/css/mdb.min.css" />
     <title>Crocodilândia Placas e Baús</title>
 
+    <script type="module">
+    import { initAuth } from './auth.js';
+    
+    initAuth(); // Inicializa a autenticação
+  </script>
 </head>
 
 <body>
@@ -49,6 +54,7 @@
             <span class="navbar-text">
               CROCODILES🐊: a gama de servidores para criar amizades
             </span>
+            <button id="logoutButton" class="btn btn-danger ms-2">Logout</button>
           </div>
         </div>
       </nav>
