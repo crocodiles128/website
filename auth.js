@@ -1,4 +1,15 @@
+import bcrypt from 'https://cdn.jsdelivr.net/npm/bcryptjs/+esm';
+
 // auth.js
+
+export async function hashPassword(password) {
+  const saltRounds = 10;
+  return await bcrypt.hash(password, saltRounds);
+}
+
+export async function verifyPassword(password, hashedPassword) {
+  return await bcrypt.compare(password, hashedPassword);
+}
 
 export function checkAuth() {
   const token = localStorage.getItem('authToken');
